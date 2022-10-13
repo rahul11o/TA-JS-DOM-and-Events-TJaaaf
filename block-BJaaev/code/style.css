@@ -1,0 +1,104 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Custom Styles */
+*, 
+*:before,
+*:after {
+box-sizing: border-box;
+  }
+
+.container{
+    width:800px;
+    margin: 0 auto;
+    padding: 36px;
+    border :1px solid black;
+}
+h1{
+    font-size: 72px;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    padding: 24px 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+ input[type = "text"], li, .inp-footer{
+    width: 100%;
+    font-size: 32px;
+    font-style:oblique;
+    font-weight: 100;
+    padding: 12px ;
+    border: 1px solid black;
+}
+.inp-footer{
+    font-size: 24px;
+    display: none;
+}
+button{
+    font-size: 18px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+}
+.tog{
+    display: flex;
+}
+li input.circle  {
+   width: 24px; 
+    height : 24px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 36px;
+}
